@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Let's Chat Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="Kwitter.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <div id="labelDiv">
+        <center>
+          <div>
+            <img id="logoImg" src="Logo.png">
+          </div>
+          <div>
+            <label id="signInLabel">Kwitter</label>
+          </div>
+          <div>
+            <label id="infoLabel">Connect to your friends from anywhere in the world, anytime on the World's Best Chatting Platform</label>
+          </div>
+        </center>
+      </div>
+      <div id="infoDiv">
+        <center>
+          <div>
+            <label id="infoSignIn">Sign In</label>
+          </div>
+          <div>
+            <input id="usernameInput" class="form-control" placeholder="Enter your user name">
+          </div>
+          <div>
+            <input id="passwordInput" class="form-control" placeholder="Enter your password">
+          </div>
+          <div>
+            <button id="loginButton" onclick="addUser()" class="btn btn-primary">Login</button>
+          </div>
+        </center>
+      </div>
+    </div>
+
+    <script src="Kwitter.js"></script>
+  </body>
+</html>

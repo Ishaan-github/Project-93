@@ -1,0 +1,50 @@
+#logoImg{
+  margin-top: 30%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.flex-container {
+  display: flex;
+}
+#labelDiv{
+  background-color: magenta;
+}
+#signInLabel{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: whitesmoke;
+}
+#infoLabel{
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: 500;
+  margin-bottom: 46%;
+}
+#infoDiv{
+  margin: 0 auto;
+  align-self: center;
+}
+#infoSignIn{
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+#usernameInput{
+  width: 300px;
+  height: 30px;
+  border-color: black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+#passwordInput{
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-color: black;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
